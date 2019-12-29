@@ -1,0 +1,22 @@
+{
+    "name": "phoxy-pass",
+    "version": "1.0.0",
+    "description": "A simple proxy pass server using node.js",
+    "main": "pass.js",
+    "scripts": {
+        "pass": ""
+    },
+    "keywords": [
+        "proxy",
+        "http"
+    ],
+    "author": {
+        "name": "Liu Jie",
+        "email": "jieliu2000@live.com"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jieliu2000/phoxy-pass.git"
+    }
+}
