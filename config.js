@@ -12,7 +12,7 @@ var config = {
   add_proxy_header: false,//activate addition of X-Forwarded-For header for better logging on real server side
 
   target: {
-    host: "localhost",
+    host: "172.18.92.212",
     port: "3232"
   },
   listen: [{ ip: '0.0.0.0', port: 80 },//all ipv4 interfaces
@@ -36,5 +36,5 @@ var config = {
    ]*/
 };
 
-exports.config = config;
+module.exports = config;
 
