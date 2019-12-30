@@ -18,8 +18,8 @@ function handleRequest(message, response) {
         }
     }
 
-    headers["Host"] = "localhost";
-    //  headers["referer"] = "http://localhost:3232/index.html";
+    headers["host"] = "localhost";
+    headers["referer"] = "http://localhost:3232/index.html";
 
     var remoteServerConfig = {
         method: message.method,
